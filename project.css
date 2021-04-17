@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+
+    font-family: 'Source Sans Pro', sans-serif;
+}
+header{
+    width: 100%;
+    min-height: content;
+ 
+}
+.icon{
+    width: 33.33%;
+    float: left;
+    height: 100px;
+    margin-left: 12px;
+
+}
+
+.icon_name{
+    margin: 10px;
+}
+.icon_name i{
+    font-size: 20px;
+    margin-top: 0;
+}
+.icon_name span{
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.search_box{
+    width: 17%;
+    margin-top: 0px;
+    margin-left: 50%;
+    transform: translate(-50%);
+    overflow: hidden;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+    background: #34495e;
+
+
+}
+.search_btn{
+    color: #e74c3c;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+
+  
+   
+}
+.search_text{
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+     transition: .6s;
+    
+    
+}
+
+.main_manu{
+ 
+    margin-right: 10px;
+ margin-top:-100px;
+ 
+}
+.manu_var{
+
+}
+.manu_var ul{
+   float: right;
+   list-style: none;
+}
+  
+.manu_var ul li{
+    display: inline-block;
+    margin:0 10px;
+    padding: 5px;
+  
+  
+}
+.manu_var ul li a{
+
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif; 
+
+}
